@@ -1,0 +1,8 @@
+version: "3.4"
+
+services:
+  ldclient_test:
+    image: tiangolo/uvicorn-gunicorn-fastapi:python3.7-alpine3.8
+    command: sh -c "pip install -r requirements.txt && /start-reload.sh"
+    volumes:
+      - ./:/app
