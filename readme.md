@@ -1,3 +1,9 @@
+# UPDATE 2020/02/04
+
+This appears to be working now, though I'm not sure exactly why.
+
+Run `docker-compose up` and navigate to [http://localhost:7777/](http://localhost:7777/)
+
 # TypeError Demo
 
 I noticed the following error when trying to use launch darkly in a fastapi project with code reloading:
